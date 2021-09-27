@@ -1,0 +1,46 @@
+.hotelimg img {
+    height: auto;
+    width: 100%;
+    float: left;
+    position: relative;
+    border-radius: 2px;
+    padding-top: 20px;
+}
+
+
+.hotelboarder input {
+    float: left;
+    width: 52%;
+    text-align: center;
+}
+
+.hotelboarder {
+    margin-bottom: 25px;
+    border: #6ed6f8 1px solid;
+    border-radius: 5px;
+    background-color: #4bacc6;
+    color: white;
+}
+
+.stars {
+    display: inline;
+}
+
+.stars div {
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+.infosection {
+    margin-left: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 992px) {
+    .hotelboarder input {
+        float: left;
+        width: 95%;
+    }
+}

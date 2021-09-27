@@ -1,0 +1,85 @@
+.picture img {
+    max-width: 100%;
+}
+
+.angebote img{
+    text-align: center;
+    height: auto;
+    width: auto;
+    max-width: 300px;
+    max-height: 300px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 370px){
+    .angebote img{
+        text-align: center;
+        height: auto;
+        width: auto;
+        max-width: 200px;
+        max-height: 200px;
+        margin-top: 20px;
+    }
+}
+
+.angebote .angebotboarder{
+    margin-left: 20px;
+    background-color: #4bacc6;
+    border: 1px solid #6ed6f8;
+    border-radius: 20px;
+}
+
+.angebote .angebotboarder a, .angebote .angebotboarder p{
+    color: white;
+}
+
+.price{
+    text-align: right;
+    padding-right: 20px;
+    color: black;
+}
+
+.angebote .name{
+    padding-left: 45px;
+}
+
+.price a{
+    color: black;
+}
+
+.veranstalter img{
+    margin-left: 40px;
+}
+
+.categories {
+    background-color: #4bacc6;
+    border: 1px solid #6ed6f8;
+    border-radius: 20px;
+}
+
+.categories div{
+    text-align: center;
+}
+
+.categories a {
+    color: white;
+    text-decoration: none;
+}
+
+.categories img {
+    text-align: center;
+    height: auto;
+    width: auto;
+    max-width: 300px;
+    max-height: 300px;
+    margin-top: 20px;
+    border-radius: 25px;
+}
+
+@media only screen and (max-width: 370px) {
+    .categories img {
+        max-width: 250px;
+        max-height: 250px;
+    }
+}

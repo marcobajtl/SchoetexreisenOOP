@@ -1,0 +1,33 @@
+.roomimg img {
+  height: auto;
+  width: 100%;
+  float: left;
+  position: relative;
+  border-radius: 2px;
+  padding-bottom: 20px;
+  padding-top: 0;
+}
+
+.picheader div {
+  margin-left: 15px;
+  margin-right: 0;
+  padding-left: 0;
+  width: 80%;
+}
+
+.infosectionzimmer {
+  vertical-align: center;
+  text-align: center;
+  display: inline-flex;
+  width: 100%;
+}
+
+.infosectionroom p {
+  margin-top: 20px;
+}
+
+.status p {
+  padding-right: 0;
+}
+
+/*# sourceMappingURL=zimmer.css.map */

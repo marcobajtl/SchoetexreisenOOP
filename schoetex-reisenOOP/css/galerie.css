@@ -1,0 +1,80 @@
+.galerieheader h2 {
+  color: white;
+  font-size: 32px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.galerieMainImg img {
+  padding-top: 0;
+}
+
+.toggleon {
+  padding: 0 20px 20px 20px;
+}
+
+.galerieblock {
+  position: relative;
+  margin: 10px 0 10px 0;
+  border: 3px solid #4bacc6;
+  border-radius: 7px;
+  background-color: #6ed6f8;
+}
+
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+
+#text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  color: white;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px 0 16px 0;
+  margin-top: 25px;
+  color: black;
+  font-weight: bold;
+  font-size: 35px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  text-decoration: none;
+}
+
+.prev:hover,
+.next:hover {
+  color: white;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/*# sourceMappingURL=galerie.css.map */
